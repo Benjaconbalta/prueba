@@ -1,0 +1,186 @@
+.top_bg{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+#arrow{
+    color: white;
+    padding: 20px;
+}
+
+#more{
+    color: white;
+    padding: 20px;
+    float: right;
+}
+
+.top_box{
+    background-color: white;
+    margin: -30px 20px 0px 20px;
+    box-shadow: 0px 0px 52px 0px rgba(0,0,0,0.08);
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.girl_profile{
+    height: 50px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.bio{
+    display: inline-block;
+    padding: 15px 0 0 20px;
+}
+
+.bio h1{
+    font-size: 20px;
+    line-height: 0;
+}
+
+.bio h2{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.follow{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet; 
+    border-radius: 50px 50px 50px 50px;
+    font-size: 10px;
+    padding: 0 15px 0 15px;
+    margin: 15px;
+    height: 25px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.stat{
+    text-align: center;
+}
+
+.big_num{
+    font-size: 30px;
+    line-height: 1;
+}
+
+.number_desc{
+    color: gray;
+    font-size: 10px;
+    line-height: 1;
+}
+
+.reaction{
+    font-size: 15px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.face{
+    height: 18px;
+    margin-right: 5px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    outline: 0;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height: 50px;
+}
+
+.tab{
+    margin: 15px;
+    width: 50%;
+    color: gray;
+    font-weight: 100;
+    transition: all .2s ease-in-out;
+}
+
+.tab.active{
+    font-size: 20px;
+    color:black;
+    font-weight: 500;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.product_pic{
+    height: 120px;
+}
+
+h3{
+    font-size: 15px;
+    color: gray;
+    font-weight: 100;
+    line-height: 0;
+}
+
+.price{
+    color: blueviolet;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.product_list{
+    position: absolute;
+    left: 0;
+    transition: all .2s ease-in-out;
+    opacity: 1;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product_list li{
+    padding: 10px;
+}
+
+.hidden{
+    opacity: 0;
+    left: 10px;
+}
+
+h4{
+    line-height: 0;
+    font-size: 20px;
+    margin: 15px 0 20px 0;
+}
+
+.description{
+    font-size: 12px;
+    line-height: 1;
+    color: gray;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px;
+    height: 12px;
+}
+
